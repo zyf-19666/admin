@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正在跳转...</title>
+  <script>
+    // 你的 GitHub Pages 子路径（和 vite.config.js 里的 base 保持一致）
+    const base = '/blog-system/'
+    // 获取当前页面的完整路径和查询参数
+    const path = window.location.pathname + window.location.search
+    // 重定向到 index.html，并带上原路径
+    window.location.href = base + 'index.html' + path
+  </script>
+</head>
+<body>
+  <p>页面加载中，请稍候...</p>
+</body>
+</html>
